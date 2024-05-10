@@ -1,0 +1,10 @@
+[0.0000010] Vehicle speed = 60 | ecu1
+[1.0001211] Vehicle speed = 29 | ecu1
+[2.0002799] Vehicle speed = 35 | ecu1
+[3.0003986] Vehicle speed = 30 | ecu1
+[4.0005598] Vehicle speed = 31 | ecu1
+[5.0007068] Vehicle speed = 26 | ecu1
+[6.0008475] Vehicle speed = 49 | ecu1
+[7.0010046] Vehicle speed = 25 | ecu1
+[8.0010957] Vehicle speed = 44 | ecu1
+[9.0012276] Vehicle speed = 15 | ecu1

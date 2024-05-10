@@ -1,0 +1,507 @@
+/* main.css file - html files will inherit this */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+  }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+
+
+.default {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.active-btn {
+    background-color: #46709f;
+}
+
+.main-heading {
+    margin-right: auto;
+    padding-left: 20px 
+}
+
+/* Buttons and Fields */
+
+button {
+    background-color: #28588d;
+    color: #ffffff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+    border-right: 1px solid #0a3f7a;
+}
+
+button#submitConfig {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+button#viewDashboard {
+    border-left: 1px solid #0a3f7a;
+}
+
+button:hover {
+    background-color: #46709f;
+    transition: 0.2s;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    color: #495057;
+    font-size: 14px;
+}
+  
+input {
+    width: 100%;
+    padding: 8px 5px 8px 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.select {
+    padding: 8px 5px 8px 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.header {
+    padding: 0px;
+    background-color: #28588d;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.forth {
+    flex: 40%;
+}
+
+.full {
+    padding: 30px 15px;
+}
+
+.info-box {
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 100%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.logs-coneatiner {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-content: flex-start;
+    gap: 20px;
+    padding: 30px 15px 30px 15px;
+
+}
+
+.inner-logs {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.logs {
+    flex: 45%;
+    color: #fff !important;
+    background-color: #202124;
+    padding: 15px;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.logs p {
+    color: #dbdbdb !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.logs h5 {
+    color: #fff !important;
+    margin-bottom: 10px;
+    font-weight: 600 !important;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.info-box h3 h4 {
+    color: #1e1f22;
+}
+
+.info-box h3 {
+    font-size: 24px;
+}
+
+.info-box h4 {
+    font-size: 20px;
+}
+
+.info-box p {
+    color: #3f3f3f;
+    line-height: 26px;
+}
+
+.left-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-content: flex-start;
+    gap: 20px;
+    padding: 30px 30px 30px 15px;
+}
+
+.half {
+    display: flex;
+    flex: 50%;
+    height: calc(100vh - 130px);
+}
+
+
+.right-container {
+    flex-direction: column;
+    
+}
+
+.top {
+    flex: 70%;
+}
+
+.bottom {
+    flex: 30%;
+    display: flex;
+    max-height: 300px;
+    margin-bottom: -71px;
+    overflow: auto;
+    background-color: #202124;
+    padding: 15px;
+}
+
+.topology-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.console-content {
+    color: #fff;
+    background-color: #202124;
+    width: 100%;
+    overflow: auto;
+}
+
+.console-content p {
+    margin: 5px 0;
+    font-family: 'Courier New', Courier, monospace !important;
+}
+
+.console-content::-webkit-scrollbar {
+    width: 5px; /* Width of the vertical scrollbar */
+}
+
+.console-content::-webkit-scrollbar-track {
+    background: #202124; /* Track color */
+}
+  
+.console-content::-webkit-scrollbar-thumb {
+    background: #ffffff; /* Handle color */
+    border-radius: 3px;
+}
+  
+.console-content::-webkit-scrollbar-thumb:hover {
+    background: #e7e7e7; /* Handle color on hover */
+}
+
+p.error {
+    color: #eb3030;
+}
+
+p.success {
+    color: #1ac91a;
+}
+
+.ecu-container {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ecu-content {
+    padding: 0px 15px 15px 15px;    
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ecu-heading {
+    color: white;
+    background-color: #0a3f7a;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.heading-text {
+    font-size: 18px;
+}
+
+.ecu-container-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+button.remove-btn {
+    font-size: 14px;
+    line-height: 0;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    background-color: rgb(243, 97, 97);
+}
+
+button.add-btn {
+    font-size: 14px;
+    line-height: 0;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    background-color: rgb(60, 143, 85);
+    border: none;
+}
+
+button.minimize-btn {
+    font-size: 14px;
+    line-height: 0;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+}
+
+.ecu-container-heading h5 {
+    margin-right: auto;
+}
+
+.ecu-container-heading h6 {
+    margin-right: auto;
+}
+
+
+.collapsible-content {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0 0 5px 5px;
+    transition: max-height 0.3s ease-out; /* Add transition effect */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.collapsible-header {
+    background-color: #3f5c7d;
+    padding: 15px 10px 15px 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.collapsible-content.collapsed {
+    max-height: 0; /* Collapse content */
+    padding: 0;
+}
+
+.rx-channel {
+    margin-top: 12px;
+}
+
+.left-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.left-container::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    border: 1px solid #cacaca;
+}
+
+.left-container::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #0a3f7a;
+}
+
+.topology-image {
+    max-width: 100%;
+}
+
+
+
+
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin: 15% auto; 
+    padding: 30px;
+    width: 35%;
+}
+
+.modal-content p {
+    color: #495057;
+    margin-bottom: 30px;
+}
+
+.modal-content h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.modal-inner-content {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.modal-ecu {
+    flex: calc(50% - 45px);
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+.modal-ecu a {
+    color: #28588d;
+}
+
+.modal-ecu h5 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button.download-btn {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 9px 15px 9px 15px;
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span.btn-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px
+}
+
+span.fileName {
+    font-size: 11px;
+    color: #c0cfdf;
+}
+
+
+.close {
+    position: relative;
+    color: #878787;
+    float: right;
+    font-size: 29px;
+    font-weight: bold;
+    top: -15px;
+    left: 10px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+[0.0000011] Vehicle RPM = 4468 | ecu4
+[1.0001415] Vehicle RPM = 4844 | ecu4
+[2.0002681] Vehicle RPM = 3148 | ecu4
+[3.0004039] Vehicle RPM = 2512 | ecu4
+[4.0005616] Vehicle RPM = 2728 | ecu4
+[5.0006818] Vehicle RPM = 1650 | ecu4
+[6.0008195] Vehicle RPM = 4413 | ecu4
+[7.0008892] Vehicle RPM = 2123 | ecu4
+[8.0010308] Vehicle RPM = 4253 | ecu4
+[9.0011682] Vehicle RPM = 4914 | ecu4

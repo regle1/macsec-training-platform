@@ -1,0 +1,15 @@
+[0.0000010] Vehicle sensor = 266 | ecu3
+[0.0000010] Vehicle sensor = 266 | ecu3
+[0.0000010] Vehicle sensor = 266 | ecu3
+[1.0001600] Vehicle sensor = 228 | ecu3
+[0.0000010] Vehicle sensor = 266 | ecu3
+[0.0000010] Vehicle sensor = 266 | ecu3
+[2.0003318] Vehicle sensor = 242 | ecu3
+[0.0000010] Vehicle sensor = 266 | ecu3
+[3.0004532] Vehicle sensor = 235 | ecu3
+[4.0006187] Vehicle sensor = 240 | ecu3
+[5.0006575] Vehicle sensor = 294 | ecu3
+[6.0008227] Vehicle sensor = 276 | ecu3
+[7.0009711] Vehicle sensor = 277 | ecu3
+[8.0011233] Vehicle sensor = 272 | ecu3
+[9.0012496] Vehicle sensor = 231 | ecu3
