@@ -558,17 +558,15 @@
       <div class="half left-container">
         <div class="info-box">
           <h3>Introduction</h3>
-
+            <p>Welcome to the MACsec training scenario, where you can test and improve your MACsec configuration skills using a simulated Ethernet network.</p>
             <h4>Why Learn About MACsec?</h4>
-          <p>Due to the increasaing demand for Ethernet netowors in vehicles, it is neccessary to learn how to use tools 
-            to preopperly protect the network from attacks and MACsec is one of them. </p>
+          <p>Learning MACsec is crucial for anyone involved in network security and management. MACsec, or Media Access Control Security, provides a robust layer of protection for Ethernet networks by ensuring data authenticity, confidentiality, and integrity. As cyber threats continue to evolve, securing data at the link layer becomes increasingly important. Mastering MACsec configuration allows you to safeguard sensitive information against unauthorized access and tampering, thus maintaining the reliability and security of network communications. Additionally, expertise in MACsec can enhance your professional skills, making you a valuable asset in any organization that prioritizes network security. </p>
 
         </div>
 
         <div class="info-box">
           <h3>Scenario description</h4>
-          <p>You are a cybersecurity specialist and you have been tasked with securing a in-vehicle Ethernet network using MACsec. The network consists of 4 ECUs that you will be able to config</p>
-          <p>Task details...</p>
+          <p>This scenario includes four electronic control units interconnected in an Ethernet network, and you can view the network topology in the "Dashboard" view. All data transmitted by the electronic control units is confidential and crucial for functionality, so it must always adhere to the three cybersecurity principles: data authenticity, confidentiality, and integrity. To protect the data during transmission, you have access to the MACsec configurator, which is available in the "Dashboard".</p>
         </div>
         
         

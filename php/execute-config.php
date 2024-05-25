@@ -1,9 +1,5 @@
 <?php
 
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
-
 function executeConfig($server, $filename) {
 
     $username = "ftp_client";
@@ -11,7 +7,6 @@ function executeConfig($server, $filename) {
     $port = 22;
     $command = "sh acpt/$filename.sh";
     
-    // Establish a connection to the SSH Server. Port is the second param.
     $connection = ssh2_connect($server, $port);
 
     if (!$connection) {
@@ -22,15 +17,12 @@ function executeConfig($server, $filename) {
         return "Authentication failed for $username@$server | error";
     }
     
-    // Execute a command on the connected server and capture the response
     $stream = ssh2_exec($connection, $command);
     
-    // Sets blocking mode on the stream
     stream_set_blocking($stream, true);
 
     $stream_out = ssh2_fetch_stream($stream, SSH2_STREAM_STDIO);
     
-    // Get the response of the executed command in a human readable form
     $output = stream_get_contents($stream_out);
     
     // echo output

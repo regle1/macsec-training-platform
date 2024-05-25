@@ -1,11 +1,5 @@
 <?php
 
-ini_set("display_errors", 1);
-ini_set("display_startup_errors", 1);
-error_reporting(E_ALL);
-
-// include "create-recipient-list.php";
-
 function validateValid($recipientId, $recipientList) {
     $results = [];
     $sentMessages = [];
@@ -97,10 +91,3 @@ function validateConfidentiality($ecuId) {
 
     return $results;
 }
-
-// $json = file_get_contents("../user-inputs.json");
-// $data = json_decode($json, true);
-// $configs = createRecipientList($data);
-// $result = validateValid("ecu3", $configs);
-
-// echo '<pre>' . print_r($result, true) . '</pre>';

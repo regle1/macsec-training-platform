@@ -101,12 +101,12 @@ class ECU {
         $interface = "macsec" . $port;
         $channel = new CommunicationChannel($id, $interface, $status, $encryptionMode, $cipher, $frameValidation, $replayProtection, $replayWindow, $keyName, $key, $ip, $port);
         $this->commChannels[] = $channel;
-        return $channel; // Return the newly added channel for method chaining
+        return $channel;
     }
 
     public function generateConfigs() {
         
-        $configs = "#! /bin/bash\n"; // Initialize an empty string to store configurations
+        $configs = "#! /bin/bash\n";
         $configs .= "execute_silently() {\n";
         $configs .= "\"$@\" > /dev/null 2>&1\n";
         $configs .= "if [ $? -ne 0 ]; then\n";
@@ -121,7 +121,7 @@ class ECU {
 
         $configs .= "echo \"MACsec setup completed successfully | success\"";
 
-        return $configs; // Return the generated configurations
+        return $configs;
     }
 }
 

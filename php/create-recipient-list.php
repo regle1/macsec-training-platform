@@ -59,13 +59,4 @@ function createEcuRecipients($ecuId, $recipientList) {
     return $recipients;
 }
 
-// $json = file_get_contents("../user-inputs.json");
-// $data = json_decode($json, true);
-// $configs = createRecipientList($data);
-
-// $config2 = createEcuRecipients("ecu3", $configs);
-
-// echo '<pre>' . print_r($configs, true) . '</pre>';
-// echo '<pre>' . print_r($config2, true) . '</pre>';
-
 ?>
