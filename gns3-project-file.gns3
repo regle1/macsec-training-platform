@@ -4,7 +4,7 @@
     "auto_start": false,
     "drawing_grid_size": 25,
     "grid_size": 75,
-    "name": "Linux Host MACSec",
+    "name": "gns3-project-file",
     "project_id": "fa075ea0-e74a-4cad-86f1-0f3b5b565ffd",
     "revision": 9,
     "scene_height": 1000,
