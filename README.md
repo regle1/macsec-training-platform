@@ -1,4 +1,4 @@
-# MACsec Praktisku zināšanu apguves platforma
+# MACsec praktisku zināšanu apguves platforma
 Izstrādāta Rīgas Tehniskās Universitātes bakalaura akadēmisko studiju programmas “Informācijas tehnoloģija” bakalaura darba "Praktisku kiberdrošības zināšanu apguves iespējas simulētā vidē auto industrijā" ietvaros.
 
 Sakarā ar nepārtrauktu attīstību informācijas un tehnoloģiju industrijā, ar katru gadu nepieciešamība pēc kvalificētiem kiberdrošības speciālistiem  pieaug, bet patreizējie apmācību veidi, kas tiek piedāvāti, ir nepietiekami, un darba tirgū veidojas speciālistu iztrūkums. Galvenokārt šis iztrūkums ir saistīts ar praktisku zināšanu trūkumu. Darba mērķis ir izveidot simulētu, kiberdrošības apmācībai auto industrijā piemērotu vidi, kur apmācāmais var izpētīt sistēmas komponentes, to mijiedarbību, simulēt uzbrukumus, tos analizēt un novērst, tādā veidā apgūstot kādas drošības kontroles praktisko pielietojumu, balstoties uz iepriekš apgūtajām teorētiskajām zināšanām.
